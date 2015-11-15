@@ -12,7 +12,7 @@ We should help him to spread the word.
 
 Please, as much as possible, do not directly link this page, but copy the video and subtitle files on personal servers or/and various video platforms. The original video is currently too hard to find: we need to replicate it, for ensuring its availability in the future.
 
-If you speak a language not currently available in the subtitle files, feel free to propose your contribution.
+If you speak a language not currently available in the [subtitles/](subtitles/) directory, feel free to do a pull request.
 
 ## Subtitles
 
