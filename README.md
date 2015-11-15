@@ -38,7 +38,7 @@ This translation is based on the [English version](subtitles/stoltenberg_2011-07
 The original video was taken from [VGTV](http://www.vgtv.no/#!/video/42403/se-stoltenberg-snakke-om-bombeangrepet) in FLV format, thanks to `youtube-dl`:
 
 ```
-% youtube-dl http://www.vgtv.no/#!/video/42403/se-stoltenberg-snakke-om-bombeangrepet
+% youtube-dl 'http://www.vgtv.no/#!/video/42403/se-stoltenberg-snakke-om-bombeangrepet'
 ```
 
 ### Available formats
