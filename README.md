@@ -10,9 +10,9 @@ He said:
 
 We should help him to spread the word.
 
-Please, as much as possible, do not link this page or other one, but copy the videos and the subtitles on personal servers and various video platforms. The original video is currently too hard to find. We need to replicate it, for more availability, even when sources disappeared.
+Please, as much as possible, do not link this page or other one, but copy the video and the subtitle files on personal servers or/and various video platforms. The original video is currently too hard to find. We need to replicate it, for more availability, even when sources disappeared.
 
-If you speak a language not available in the subtitle files, feel free to propose your contribution!
+If you speak a language not available in the subtitle files, feel free to propose your contribution.
 
 ## Subtitles
 ### English
@@ -36,7 +36,7 @@ The original video was taken from [VGTV](http://www.vgtv.no/#!/video/42403/se-st
 % youtube-dl http://www.vgtv.no/#!/video/42403/se-stoltenberg-snakke-om-bombeangrepet
 ```
 
-The syncing of the subtitles was done, with the help of [this other video](https://www.youtube.com/watch?v=VwdZs0GqWHA).
+The syncing of the subtitles was done with the help of [this other video](https://www.youtube.com/watch?v=VwdZs0GqWHA).
 
 ### Available formats
 
