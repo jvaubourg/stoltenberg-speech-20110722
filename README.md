@@ -61,9 +61,9 @@ Please, download the 3 files available in [videos/](videos/) and the VTT files a
 
 ```
 <video width="512" height="288" preload="metadata" tabindex="0" controls>
-  <source type="video/webm" src="stoltenberg_2011-07-22.webm" />
-  <source type="video/mp4" src="stoltenberg_2011-07-22.mp4" />
-  <source type="video/ogv" src="stoltenberg_2011-07-22.ogv" />
+  <source type="video/webm" src="stoltenberg_2011-07-22.webm">
+  <source type="video/mp4" src="stoltenberg_2011-07-22.mp4">
+  <source type="video/ogv" src="stoltenberg_2011-07-22.ogv">
   <track label="Français" kind="subtitles" srclang="fr" src="stoltenberg_2011-07-22.fr.vtt" default>
   <track label="English" kind="subtitles" srclang="en" src="stoltenberg_2011-07-22.en.vtt">
   <button id="subtitles" type="button" data-state="subtitles">CC</button>
