@@ -10,9 +10,9 @@ He said:
 
 We should help him to spread the word.
 
-Please, as much as possible, do not link this page, but copy the video and subtitle files on personal servers or/and various video platforms. The original video is currently too hard to find: we need to replicate it, for more availability, even when sources disappeared.
+Please, as much as possible, do not directly link this page, but copy the video and subtitle files on personal servers or/and various video platforms. The original video is currently too hard to find: we need to replicate it, for ensuring its availability in the future.
 
-If you speak a language not available in the subtitle files, feel free to propose your contribution.
+If you speak a language not currently available in the subtitle files, feel free to propose your contribution.
 
 ## Subtitles
 
@@ -24,7 +24,7 @@ You can use Subtitle Editor (package `subtitleeditor` on Debian/Ubuntu) for comp
 
 This translation corresponds to the [official English version](https://www.regjeringen.no/en/aktuelt/transcript-from-prime-minister-stoltenbe/id651770/) of the speech, provided by the Norwegian government.
 
-The syncing of the subtitles was done with the help of [this other video](https://www.youtube.com/watch?v=VwdZs0GqWHA).
+The syncing with the video was done with the help of [this other video](https://www.youtube.com/watch?v=VwdZs0GqWHA).
 
 ### French
 
