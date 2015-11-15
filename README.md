@@ -54,3 +54,19 @@ The original FLV file was converted to these 3 standard HTML5 formats, thanks to
 % ffmpeg -i stoltenberg_2011-07-22.flv -b:v 1500k -vcodec libtheora -acodec libvorbis -ab 160000 -g 30 stoltenberg_2011-07-22.ogv
 % ffmpeg -i stoltenberg_2011-07-22.flv -b:v 1500k -vcodec libx264 -strict -2 -preset medium -g 30 stoltenberg_2011-07-22.mp4
 ```
+
+### Displaying on a website
+
+Please, download the 3 files available in [videos/](videos/) and the VTT files available in [subtitles/](subtitles/), and insert this HTML5 snippet in your webpage:
+
+```
+<video width="512" height="288" preload="metadata" tabindex="0" controls>
+  <source type="video/webm" src="stoltenberg_2011-07-22.webm" />
+  <source type="video/mp4" src="stoltenberg_2011-07-22.mp4" />
+  <source type="video/ogv" src="stoltenberg_2011-07-22.ogv" />
+  <track label="Français" kind="subtitles" srclang="fr" src="stoltenberg_2011-07-22.fr.vtt" default>
+  <track label="English" kind="subtitles" srclang="en" src="stoltenberg_2011-07-22.en.vtt">
+  <button id="subtitles" type="button" data-state="subtitles">CC</button>
+  Please, use a recent browser to view this video.
+</video>
+```
