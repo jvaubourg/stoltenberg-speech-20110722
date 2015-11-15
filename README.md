@@ -15,6 +15,9 @@ Please, as much as possible, do not link this page or other one, but copy the vi
 If you speak a language not available in the subtitle files, feel free to propose your contribution.
 
 ## Subtitles
+
+You can use Subtitle Editor (package `subtitleeditor` on Debian/Ubuntu) for composing a new translation from another version.
+
 ### English
 
 * [subtitles/stoltenberg_2011-07-22.en.srt](subtitles/stoltenberg_2011-07-22.en.srt)
