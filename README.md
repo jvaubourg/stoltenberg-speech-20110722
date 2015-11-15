@@ -16,7 +16,7 @@ If you speak a language not available in the subtitle files, feel free to propos
 
 ## Subtitles
 
-You can use Subtitle Editor (package `subtitleeditor` on Debian/Ubuntu) for composing a new translation from another version.
+You can use Subtitle Editor (package `subtitleeditor` on Debian/Ubuntu) for composing a new translation, and this [online converter](https://atelier.u-sub.net/srt2vtt/) for converting SRT files to VTT ones.
 
 ### English
 
@@ -28,12 +28,12 @@ This translation corresponds to the [official speech translation](https://www.re
 
 * [subtitles/stoltenberg_2011-07-22.fr.srt](subtitles/stoltenberg_2011-07-22.fr.srt)
 
-This translation is an homemade work, based on the [English version](https://www.regjeringen.no/en/aktuelt/transcript-from-prime-minister-stoltenbe/id651770/) and the proposition found on [this blog](http://krn-defouloir.blogspot.fr/2011/07/jens-stoltenberg-sadresse-aux.html).
+This translation is based on the [English version](subtitles/stoltenberg_2011-07-22.en.srt), and the proposition found on [this blog](http://krn-defouloir.blogspot.fr/2011/07/jens-stoltenberg-sadresse-aux.html).
 
 ## Videos
 ### Origins
 
-The original video was taken from [VGTV](http://www.vgtv.no/#!/video/42403/se-stoltenberg-snakke-om-bombeangrepet), thanks to `youtube-dl`:
+The original video was taken from [VGTV](http://www.vgtv.no/#!/video/42403/se-stoltenberg-snakke-om-bombeangrepet) in FLV format, thanks to `youtube-dl`:
 
 ```
 % youtube-dl http://www.vgtv.no/#!/video/42403/se-stoltenberg-snakke-om-bombeangrepet
@@ -47,7 +47,7 @@ The syncing of the subtitles was done with the help of [this other video](https:
 * [OGV](videos/stoltenberg_2011-07-22.ogv)
 * [MP4](videos/stoltenberg_2011-07-22.mp4)
 
-The downloaded FLV video file was converted to these 3 standard HTML5 formats thanks to `ffmpeg`:
+The original FLV file was converted to these 3 standard HTML5 formats, thanks to `ffmpeg`:
 
 ```
 % ffmpeg -i stoltenberg_2011-07-22.flv -b:v 1500k -vcodec libvpx -acodec libvorbis -ab 160000 -f webm -g 30 stoltenberg_2011-07-22.webm
