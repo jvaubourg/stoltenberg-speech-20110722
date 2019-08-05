@@ -1,4 +1,4 @@
-# Prime Minister's Stoltenberg press conference - Norway, 22nd July 2011 at 22.00
+# Prime Minister's Stoltenberg press conference - Norway, 22nd July 2011, 10PM
 
 ## Historical Speech
 
